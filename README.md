@@ -17,7 +17,7 @@ BI-RADS is measure of how confident is the severity classification of the mammog
 
 A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results. If I can build a better way to interpret them through supervised machine learning, it could improve a lot of lives.
 
-I have applied five different supervised machine learning techniques to this data set, and see which one yields the highest accuracy as measured with K-Fold cross validation (K=10) where the data is divided into ten difrrent folds that will be tested iteratively. 
+I have applied six different supervised machine learning techniques to this data set, and see which one yields the highest accuracy as measured with K-Fold cross validation (K=10) where the data is divided into ten difrrent folds that will be tested iteratively. 
 
 * Decision tree
 * Random forest
