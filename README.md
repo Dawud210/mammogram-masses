@@ -27,4 +27,4 @@ I have applied six different supervised machine learning techniques to this data
 
 
 The data has been cleaned so that many rows contain missing data and identifiable outliers aswell as any erroneous data will be removed.
-I have used tuned hyperparameters for many techniques to achieve over 80 percent accuracy. 
+I have used tuned hyperparameters for many techniques to achieve over 80 percent accuracy. To see my work click on Predicting whether a mammogram mass is benign or malignant jupyter notebook it might say something is wrong dont wprry just click on reload. 
