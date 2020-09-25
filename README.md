@@ -1,7 +1,7 @@
 ## Predicting whether a mammogram mass is benign or malignant
 
-Mammography is an effective method for breast cancer screening and the mass that has been screened is called a mammogram mass thus 
-We'll be using the "mammographic masses" public dataset from the UCI repository (source: https://archive.ics.uci.edu/ml/datasets/Mammographic+Mass) that 
+Mammography is an effective method for breast cancer screening and to predict wheather the mass screened ("mammogram mass") is benign or malignant I
+Will be using the "mammographic masses" public dataset from the UCI repository (source: https://archive.ics.uci.edu/ml/datasets/Mammographic+Mass) that 
 
 contains 961 instances of masses detected in mammograms, and contains the following attributes:
 
@@ -15,7 +15,7 @@ contains 961 instances of masses detected in mammograms, and contains the follow
    
 BI-RADS is measure of how confident is the severity classification of the mammographic mass is, it is not a predictive attribute and so i have discarded it. The age, shape, margin, and density attributes are the features that we will build our model with, and "severity" is the classification we will attempt to predict based on those attributes.
 
-A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results. If we can build a better way to interpret them through supervised machine learning, it could improve a lot of lives.
+A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results. If I can build a better way to interpret them through supervised machine learning, it could improve a lot of lives.
 
 I have applied five different supervised machine learning techniques to this data set, and see which one yields the highest accuracy as measured with K-Fold cross validation (K=10) where the data is divided into ten difrrent folds that will be tested iteratively. 
 
@@ -26,5 +26,5 @@ I have applied five different supervised machine learning techniques to this dat
 * SVM
 
 
-The data has been cleaned so that many rows contain missing data, erroneous data in the dataset and identifiable as outliers will be removed.
+The data has been cleaned so that many rows contain missing data and identifiable outliers aswell as any erroneous data will be removed.
 I have used tuned hyperparameters for many techniques to achieve over 80 percent accuracy. 
